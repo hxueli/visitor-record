@@ -8,7 +8,12 @@
 * http://jquery.org/license
 *
 */
-
+.logoimg {
+	width: 60%;
+	margin:20%;
+	margin-top: 0;
+	margin-bottom: 0%;
+}
 
 /* SVG icons */
 .ui-icon-action:after {
