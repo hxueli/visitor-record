@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,inital=1">
+
+    <title>Demo - flowupLabels.js</title>
+
+    <meta keywords='flowupLabels, placeholder, plugin, javascript, jquery' />
+    <meta description='flowupLabels.js augments the labels in your HTML forms to behave like placeholders, but with a twist.' />
+
+    <!-- Load the CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'>
+    <link href="../css/main.css" rel='stylesheet' type='text/css'>
+    <link href="../css/jquery.FlowupLabels.css" rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div id='formContainer'>
+
+    <form id='formBody' class='FlowupLabels'>
+        <p class='rf_notice'>
+            <img class="logoimg2" src="../img/logo.png" />
+        </p>
+
+        <div class='fl_wrap'>
+            <label class='fl_label' for='rf_name'>姓名:</label>
+            <input class='fl_input' type='text' id='rf_name' />
+        </div>
+
+        <div class='fl_wrap'>
+            <label class='fl_label' for='rf_email'>邮箱:</label>
+            <input class='fl_input' type='email' id='rf_email' />
+        </div>
+
+        <div class='fl_wrap'>
+            <label class='fl_label' for='rf_company'>企业:</label>
+            <input class='fl_input' type='text' id='rf_company' />
+        </div>
+
+        <div class='fl_wrap'>
+            <label class='fl_label' for='rf_phone'>手机号:</label>
+            <input class='fl_input' type='tel' id='rf_phone' />
+        </div>
+
+        <p>
+            <input class='rf_submit' type='submit' value='提交' />
+        </p>
+    </form>
+</div>
+
+<!-- Load the JS -->
+<script src='../js/jquery.min.js'></script>
+<script src='../js/jquery.FlowupLabels.js'></script>
+<script src='../js/main.js'></script>
+</body>
+</html>
