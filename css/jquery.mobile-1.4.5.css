@@ -16,10 +16,16 @@
 }
 
 .logoimg2 {
-	width: 60%;
+	width: 1000px;
 	margin:0% 20% 0% 20%;
 }
 
+/*.logoimg3 {*/
+	/*display: block !important;*/
+	/*!*width: 60%;*!*/
+	/*!*height:200px;*!*/
+	/*margin:10% auto !important;*/
+/*}*/
 
 /* SVG icons */
 .ui-icon-action:after {

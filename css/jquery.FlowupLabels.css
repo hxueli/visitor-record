@@ -5,6 +5,9 @@
  * what should and what shouldn't be changed for your 
  * styling purposes.
  */
+.FlowupLabels {
+  margin-top: 10%;
+}
 
 .FlowupLabels .fl_wrap {
   /* Can change */
