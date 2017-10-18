@@ -8,9 +8,9 @@
 
 .FlowupLabels .fl_wrap {
   /* Can change */
-  width: 500px;
-  height: 46px;
-  margin: 12px auto; /* change 0 to auto for center alignment */
+  width: 80%;
+  height: 3em;
+  margin: 1% 10%; /* change 0 to auto for center alignment */
 
   /* Don't change */
   display: block;
@@ -41,8 +41,8 @@
   border: none;
   border-bottom: 1px solid #555;
   border-radius: 0;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1.3em;
+  line-height: 2em;
   padding: 0 0 0 30%;
   
   /* Don't change */
