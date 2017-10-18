@@ -15,7 +15,7 @@ body {
   margin: 0;
   max-width: 640px;
   max-height: 800px;
-  
+
   
 }
 
@@ -36,6 +36,8 @@ body {
 .rf_notice {
   font-size:.8em;
   text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .FlowupLabels .fl_label {
@@ -45,12 +47,13 @@ body {
 .rf_submit {
   background:none;
   border-radius: 4px;
-  border: 1px dotted #3dd585;
+  border: 2px dotted #3dd585;
   color: #3dd585;
   font-size: 18px;
-  padding: 5px 25px;
+  padding: 25px 50px;
   display: block;
   margin: auto;
+  margin-top: 10%;
 }
 .rf_submit:hover {
   cursor:pointer;
