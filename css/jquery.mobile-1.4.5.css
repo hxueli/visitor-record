@@ -20,6 +20,19 @@
 	margin:0% 20% 0% 20%;
 }
 
+.navbar2 {
+	display: inline-flex;
+	margin: 3% 35%;
+}
+
+.ui-btn {
+	/*display: inline-block;*/
+	margin: 0 !important;
+}
+
+ul {
+	display: inline-flex;
+}
 /*.logoimg3 {*/
 	/*display: block !important;*/
 	/*!*width: 60%;*!*/
