@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,inital=1">
+
+    <title>Demo - flowupLabels.js</title>
+
+    <meta keywords='flowupLabels, placeholder, plugin, javascript, jquery' />
+    <meta description='flowupLabels.js augments the labels in your HTML forms to behave like placeholders, but with a twist.' />
+
+    <!-- Load the CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'>
+    <link href="../css/main.css" rel='stylesheet' type='text/css'>
+    <link href="../css/jquery.FlowupLabels.css" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css">
+    <!--<script src="../js/jquery-1.12.5-pre.js"></script>-->
+    <!--<script src="../js/jquery.mobile-1.4.5.js"></script>-->
+</head>
+
+<body>
+
+<div>
+    <!--<span>-->
+    <!--<p>-->
+    <img class="logoimg3" src="../img/logo.png" width="1000px" height="200px" style="display: block; margin:10% auto 0 auto" />
+    <!--</p>-->
+        <!--</span>-->
+</div>
+
+
+<div id='formContainer'>
+
+    <form id='formBody' class='FlowupLabels'>
+        <!--<div>-->
+        <!--<p class='rf_notice'>-->
+            <!--&lt;!&ndash;<img class="logoimg2" src="../img/logo.png" />&ndash;&gt;-->
+        <!--</p>-->
+        <!--</div>-->
+
+        <div class="navbar2">
+        <ul>
+            <a href="#" class="ui-btn  ">曾经来过</a>
+            <a href="#" class="ui-btn  ">团队到访</a>
+        </ul>
+        </div>
+
+        <div class='fl_wrap'>
+            <label class='fl_label' for='rf_name'>来访时间:</label>
+            <input class='fl_input' type='datetime-local' id='rf_name' />
+        </div>
+
+
+
+        <div class='fl_wrap'>
+            <label class='fl_label' for='rf_name'>请输入您的姓名:</label>
+            <input class='fl_input' type='text' id='rf_name' />
+        </div>
+
+        <!--<div class='fl_wrap'>-->
+            <!--<label class='fl_label' for='rf_email'>邮箱:</label>-->
+            <!--<input class='fl_input' type='email' id='rf_email' />-->
+        <!--</div>-->
+
+        <div class='fl_wrap'>
+            <label class='fl_label' for='rf_company'>请输入您要拜访的人:</label>
+            <input class='fl_input' type='text' id='rf_company' />
+        </div>
+
+        <div class='fl_wrap'>
+            <label class='fl_label' for='rf_phone'>请输入您的手机号:</label>
+            <input class='fl_input' type='tel' id='rf_phone' />
+        </div>
+
+        <p>
+            <input class='rf_submit' type='submit' value='提交' />
+        </p>
+    </form>
+</div>
+
+<!-- Load the JS -->
+<script src='../js/jquery.min.js'></script>
+<script src='../js/jquery.FlowupLabels.js'></script>
+<script src='../js/main.js'></script>
+</body>
+</html>

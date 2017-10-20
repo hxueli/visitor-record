@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,inital=1">
+    <!--<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css">-->
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/jquery.FlowupLabels.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!--<script src="../js/jquery-3.2.1.js"></script>-->
+    <!--<script src="../js/jquery-1.12.5-pre.js"></script>-->
+    <!--<script src="../js/jquery.mobile-1.4.5.js"></script>-->
+    <script src="../js/jquery.FlowupLabels.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <title>访客登记</title>
+
+</head>
+<body>
+<div data-role="page">
+
+    <div data-role="header" data-position="fixed">
+        <h1>公司名称</h1>
+    </div>
+
+    <div data-role="main" class="ui-content2">
+        <img class="logoimg2" src="../img/logo.png" />
+        <form id='formBody' class='FlowupLabels'>
+            <div class='fl_wrap'>
+                <label class='fl_label' for='rf_name'>姓名:</label>
+                <input class='fl_input' type='text' id='rf_name' />
+            </div>
+            <div class='fl_wrap'>
+                <label class='fl_label' for='rf_email'>手机号:</label>
+                <input class='fl_input' type='email' id='rf_email' />
+            </div>
+        </form>
+    </div>
+    <div data-role="footer" data-position="fixed" style="text-align:center;">
+        <div data-role="navbar">
+            <!--<ul>-->
+                <!--<li><a href="#">曾经来过</a></li>-->
+                <!--&lt;!&ndash;<li><a href="#">团队到访</a></li>&ndash;&gt;-->
+            <!--</ul>-->
+        </div>
+        <!--<a href="#" class="ui-btn  ui-btn-icon-left">曾经来过</a>-->
+        <a href="#" class="ui-btn  ui-btn-icon-right">完成</a>
+    </div>
+
+</div>
+</body>
+</html>
