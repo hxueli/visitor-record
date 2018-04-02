@@ -4,7 +4,7 @@
             "outputFile": "D:\\visitor-record\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hxl\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\e04d073791ef52091f88f2bba25aa5be\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\hxl\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\97c7597c8d594552ae02cebb2a20c6ae\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hxl\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\36865a56707da623c7714fc6c5199a3c\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\hxl\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6bbc3201382eaa112229322e2d564c75\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -3,6 +3,7 @@ apply plugin: 'com.taobao.android.weex.plugin.gradle'
 
 android {
     compileSdkVersion project.compileSdkVersion
+    buildToolsVersion project.buildToolsVersion
 
     defaultConfig {
         javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
@@ -27,7 +28,7 @@ android {
 //    }
     android.applicationVariants.all { variant ->
         variant.outputs.all {
-            outputFileName = "${variant.name}-${variant.versionName}.apk"
+            outputFileName = "visitor-record.apk"
         }
     }
     signingConfigs {
@@ -62,7 +63,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_7
         targetCompatibility JavaVersion.VERSION_1_7
     }
-    buildToolsVersion '27.0.3'
 }
 
 

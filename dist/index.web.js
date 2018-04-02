@@ -21876,12 +21876,7 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('p', {
-    staticClass: "message weex-el weex-text",
-    attrs: {
-      "weex-type": "text"
-    }
-  }, [_vm._v("visitor")])
+  return _c("div")
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -21970,7 +21965,7 @@ exports = module.exports = __webpack_require__(15)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*.wrapper {*/\n  /*justify-content: center;*/\n  /*align-items: center;*/\n  /*}*/\n  .logo[data-v-bec62c94] {\n  width: 10rem;\n  height: 3.92rem;\n  margin-top: 2.20667rem;\n  margin-bottom: 2.20667rem;\n  border-style: solid;\n  border-width: 1px;\n  border-color: #008000;\n  margin-left: 0px;\n  margin-right: 0px;\n}\n  .button[data-v-bec62c94] {\n  width: 3.33333rem;\n  /*margin-top: 200px;*/\n  margin-left: 3.33333rem;\n  margin-right: 3.33333rem;\n  padding-top: 0.26667rem;\n  padding-bottom: 0.26667rem;\n  border-width: 0.02667rem;\n  border-style: solid;\n  border-color: #DDDDDD;\n  background-color: #F5F5F5\n}\n  .h-button[data-v-bec62c94] {\n  width: 5rem;\n  /*margin-top: 200px;*/\n  margin-left: 0px;\n  margin-right: 0px;\n  padding-top: 0.26667rem;\n  padding-bottom: 0.26667rem;\n  border-width: 0.02667rem;\n  border-style: solid;\n  border-color: #DDDDDD;\n  background-color: #F5F5F5\n}\n  .greeting[data-v-bec62c94] {\n  /*text-align: center;*/\n  /*margin-top: 70px;*/\n  font-size: 0.66667rem;\n  color: #41B883;\n  text-align: center;\n  /*background-color: silver;*/\n  /*width: 750px;*/\n  /*height: 200px;*/\n}\n  .h-bottom[data-v-bec62c94] {\n  width: 10rem;\n  margin-top: 7rem;\n  flex-direction: row;\n  justify-content: center;\n}\n  /*.h-cell {*/\n  /*width: 375px;*/\n  /*margin-top: 525px;*/\n  /*flex-direction: row;*/\n  /*justify-content: space-around;*/\n  /*}*/\n  .message[data-v-bec62c94] {\n  margin: 0.4rem;\n  font-size: 0.42667rem;\n  color: #727272;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*.wrapper {*/\n  /*justify-content: center;*/\n  /*align-items: center;*/\n  /*}*/\n  .title[data-v-bec62c94]{\n    position:absolute;\n    top: 0px;\n    left: 0px;\n}\n  .logo[data-v-bec62c94] {\n    font-size: 1.92rem;\n    color: #ffffff;\n    text-align: center;\n  width: 10rem;\n  /*height: 294px;*/\n  margin-top: 3.07333rem;\n  margin-bottom: 3.07333rem;\n  /*border-style: solid;*/\n  /*border-width: 1px;*/\n  /*border-color: #008000;*/\n  margin-left: 0px;\n  margin-right: 0px;\n}\n  .button[data-v-bec62c94] {\n  width: 3.33333rem;\n  /*margin-top: 200px;*/\n  margin-left: 3.33333rem;\n  margin-right: 3.33333rem;\n  padding-top: 0.26667rem;\n  padding-bottom: 0.26667rem;\n  border-width: 0.02667rem;\n  border-style: solid;\n  border-color: #DDDDDD;\n  background-color: #F5F5F5\n}\n  .h-button[data-v-bec62c94] {\n  width: 5rem;\n  /*margin-top: 200px;*/\n  margin-left: 0px;\n  margin-right: 0px;\n  padding-top: 0.26667rem;\n  padding-bottom: 0.26667rem;\n  border-width: 0.02667rem;\n  border-style: solid;\n  border-color: #DDDDDD;\n  background-color: #F5F5F5\n}\n  .greeting[data-v-bec62c94] {\n  /*text-align: center;*/\n  /*margin-top: 70px;*/\n  font-size: 0.66667rem;\n  color: #41B883;\n  text-align: center;\n  /*background-color: silver;*/\n  /*width: 750px;*/\n  /*height: 200px;*/\n}\n  .h-bottom[data-v-bec62c94] {\n  width: 10rem;\n  margin-top: 6.13333rem;\n  flex-direction: row;\n  justify-content: center;\n}\n  /*.h-cell {*/\n  /*width: 375px;*/\n  /*margin-top: 525px;*/\n  /*flex-direction: row;*/\n  /*justify-content: space-around;*/\n  /*}*/\n  .message[data-v-bec62c94] {\n  margin: 0.4rem;\n  font-size: 0.42667rem;\n  color: #727272;\n}\n", ""]);
 
 // exports
 
@@ -22351,13 +22346,12 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
-//
 
 exports.default = {
   name: 'App',
   data: function data() {
     return {
-      logo: 'http://192.168.2.89:8001/logo.png'
+      logo: 'https://thumbnail0.baidupcs.com/thumbnail/2cf8ae970d7354317b4f9339e380ba82?fid=3104971008-250528-231969654250238&time=1522688400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-JydKkxNTuG7vGWPBIoLmddrJ7kE%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2134707898507020047&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video'
     };
   }
 };
@@ -22373,13 +22367,27 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "weex-type": "div"
     }
   }, [_c('figure', {
-    staticClass: "logo weex-el weex-image",
+    staticClass: " weex-el weex-image",
+    staticStyle: {
+      "width": "10rem",
+      "height": "16.66667rem"
+    },
     attrs: {
-      "src": _vm.logo,
-      "data-img-src": _vm.logo,
+      "src": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522697905635&di=67a4847176f8008286bb7a73dbbcb0fc&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201412%2F09%2F20141209002509_u5hrh.jpeg",
+      "data-img-src": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522697905635&di=67a4847176f8008286bb7a73dbbcb0fc&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201412%2F09%2F20141209002509_u5hrh.jpeg",
       "weex-type": "image"
     }
-  }), _vm._v(" "), _c('a', {
+  }), _vm._v(" "), _c('div', {
+    staticClass: "title weex-ct weex-div",
+    attrs: {
+      "weex-type": "div"
+    }
+  }, [_c('p', {
+    staticClass: "logo weex-el weex-text",
+    attrs: {
+      "weex-type": "text"
+    }
+  }, [_vm._v("Insta360")]), _vm._v(" "), _c('a', {
     staticClass: "button weex-ct weex-a",
     attrs: {
       "href": "http://dotwe.org/raw/dist/a5e3760925ac3b9d68a3aa0cc0298857.bundle.wx",
@@ -22412,7 +22420,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "weex-type": "text"
     }
-  }, [_vm._v("来访登记")])]), _vm._v(" "), _c('a', {
+  }, [_vm._v("曾经来过")])]), _vm._v(" "), _c('a', {
     staticClass: "h-button weex-ct weex-a",
     attrs: {
       "href": "http://dotwe.org/raw/dist/a5e3760925ac3b9d68a3aa0cc0298857.bundle.wx",
@@ -22426,7 +22434,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "weex-type": "text"
     }
-  }, [_vm._v("来访登记")])])]), _vm._v(" "), _c('router-view')], 1)
+  }, [_vm._v("团队到访")])])])]), _vm._v(" "), _c('router-view')], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {

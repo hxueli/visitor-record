@@ -1,3 +1,3 @@
 <template>
-  <text class="message">visitor</text>
+  <!--<text class="message">visitor</text>-->
 </template>

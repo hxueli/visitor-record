@@ -4,7 +4,7 @@
             "outputFile": "D:\\visitor-record\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hxl\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.4.0.aar\\e604af5968cc33b9bc2b8ebdaa953f9e\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\hxl\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.4.0.aar\\1ffceaeb794679da2a841d9d197166aa\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
