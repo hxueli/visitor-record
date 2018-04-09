@@ -11,7 +11,7 @@
             <a class="button" @click="jump">
                 <text class="greeting">来访登记</text>
             </a>
-            </route-link>
+            <!--</route-link>-->
             <!--<div class="h-bottom">-->
                 <!--<a class="h-button" href="http://dotwe.org/raw/dist/a5e3760925ac3b9d68a3aa0cc0298857.bundle.wx">-->
                     <!--<text class="greeting">曾经来过</text>-->
@@ -21,35 +21,32 @@
                 <!--</a>-->
             <!--</div>-->
         </div>
-        <router-view></router-view>
+        <!--<router-view></router-view>-->
     </div>
 </template>
 
-<script>
-    var navigator = weex.requireModule('navigator')
-    var modal = weex.requireModule('modal')
-
+<script>/*eslint-disable */
+let navigator = weex.requireModule('navigator')
+let modal = weex.requireModule('modal')
 export default {
   name: 'App',
   data () {
     return {
-//      logo: 'https://thumbnail0.baidupcs.com/thumbnail/2cf8ae970d7354317b4f9339e380ba82?fid=3104971008-250528-231969654250238&time=1522688400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-JydKkxNTuG7vGWPBIoLmddrJ7kE%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2134707898507020047&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video'
     }
   },
-    methods: {
-        jump(event) {
-            console.log('will jump')
-            navigator.push({
-                url: 'http://dotwe.org/raw/dist/519962541fcf6acd911986357ad9c2ed.js',
-                animated: "true"
-            }, event => {
-                modal.toast({message: 'callback: ' + event})
-            })
-        }
+  methods: {
+    jump (event) {
+      console.log('will jump')
+      navigator.push({
+        url: 'http://192.168.2.89:8001/page2.js',
+        animated: 'true'
+      }, event => {
+        modal.toast({ message: 'callback: ' + event })
+      })
     }
+  }
 }
 </script>
-
 <style scoped>
   /*.wrapper {*/
     /*justify-content: center;*/
@@ -64,7 +61,7 @@ export default {
   }
   .logo {
       font-size: 144px;
-      color: yellow;
+      color: #FFFF00;
       text-align: center;
       width: 750px;
     /*height: 294px;*/
@@ -82,7 +79,7 @@ export default {
     padding-bottom: 20px;
     border-width: 2px;
     border-style: solid;
-    border-color: yellow;
+    border-color: #FFFF00;
     /*background-color: #c0c0c0;*/
       border-radius: 25px;
   }
@@ -102,7 +99,7 @@ export default {
   }
   .greeting {
     font-size: 50px;
-    color: yellow;
+    color: #FFFF00;
     text-align: center;
   }
   .h-bottom {
